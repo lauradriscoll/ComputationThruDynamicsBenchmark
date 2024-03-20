@@ -1,0 +1,9 @@
+# hash:sha256:efe04cd2567bb9241fc6b72a3fb36d96271710494fb18df0bd31e189420457d0
+ARG REGISTRY_HOST
+FROM $REGISTRY_HOST/codeocean/cuda-miniconda-jupyterlab:latest
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+ARG GIT_ASKPASS
+ARG GIT_ACCESS_TOKEN
+COPY git-askpass /
