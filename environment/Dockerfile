@@ -1,4 +1,4 @@
-# hash:sha256:132abb879cff6d1bad5a17eaa83bc2e42fbd27e28b44f2ad56c5e6cfde58206d
+# hash:sha256:a5ebd3536e84e780c7335105a19d4e2d9158549ed3001987d0fa5a753bacd2e1
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/cuda-miniconda-jupyterlab:latest
 
@@ -29,3 +29,6 @@ RUN pip install -U --no-cache-dir \
     torchmetrics==1.3.0.post0 \
     torchvision==0.14.1 \
     wandb==0.16.4
+
+COPY postInstall /
+RUN /postInstall
