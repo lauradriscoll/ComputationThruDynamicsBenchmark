@@ -2,5 +2,5 @@
 set -ex
 
 # This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute
-../environment/on_capsule_run.sh
+../code/on_capsule_run.sh
 python -u examples/run_task_training.py "$@"

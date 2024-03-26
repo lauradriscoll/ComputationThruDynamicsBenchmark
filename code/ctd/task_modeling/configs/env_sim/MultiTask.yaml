@@ -5,17 +5,17 @@ task_list:
   - DelayAnti
   - MemoryPro
   - MemoryAnti
-  - ReactPro
-  - ReactAnti
-  - IntMod1
-  - IntMod2
-  - ContextIntMod1
-  - ContextIntMod2
-  - ContextIntMultimodal
-  - Match2Sample
-  - NonMatch2Sample
-  - MatchCatPro
-  - MatchCatAnti
+  # - ReactPro
+  # - ReactAnti
+  # - IntMod1
+  # - IntMod2
+  # - ContextIntMod1
+  # - ContextIntMod2
+  # - ContextIntMultimodal
+  # - Match2Sample
+  # - NonMatch2Sample
+  # - MatchCatPro
+  # - MatchCatAnti
 
 n_timesteps: 640
 noise: 0.3
